@@ -6,7 +6,7 @@ import (
 
 type DataSource struct {
 	state string
-	data  [] string
+	data  [][]interface{}
 }
 
 type Node struct {
@@ -23,7 +23,7 @@ type Tree struct {
 func unionData(dataLeft *DataSource, dataRight *DataSource) *DataSource {
 	var result = &DataSource{
 		state: "ready",
-		data: []string{},
+		data: [][]interface{}{},
 	}
 
 	if dataLeft != nil {
@@ -55,25 +55,25 @@ func main() {
 
 	var dataSource1 = &DataSource{
 		state: "ready",
-		data: []string{
-			"first item1",
-			"second item1",
+		data: [][]interface{}{
+			{1, "first item1"},
+			{2, "second item1"},
 		},
 	}
 
 	var dataSource2 = &DataSource{
 		state: "ready",
-		data: []string{
-			"first item2",
-			"second item2",
+		data: [][]interface{}{
+			{3, "first item2"},
+			{4, "second item2"},
 		},
 	}
 
 	var dataSource3 = &DataSource{
 		state: "ready",
-		data: []string{
-			"first item3",
-			"second item3",
+		data: [][]interface{} {
+			{5, "first item3"},
+			{6, "second item3"},
 		},
 	}
 
