@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "name": "TestName1",
+        "email": "test-name1@test.com",
+        "groups": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 2,
+        "name": "TestName2",
+        "email": "test-name2@test.com",
+        "groups": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 3,
+        "name": "TestName3",
+        "email": "test-name3@test.com",
+        "groups": [
+            1,
+            3
+        ]
+    },
+    {
+        "id": 4,
+        "name": "TestName4",
+        "email": "test-name4@test.com",
+        "groups": [
+            1,
+            2
+        ]
+    },
+    {
+        "id": 5,
+        "name": "TestName5",
+        "email": "test-name5@test.com",
+        "groups": [
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "id": 6,
+        "name": "TestName6",
+        "email": "test-name6@test.com",
+        "groups": [
+            1,
+            2,
+            5
+        ]
+    }
+]
